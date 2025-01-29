@@ -11,18 +11,18 @@
 > location. 
 
 # App Functions
-> 1. Customer (House renter):
->   i. Customer will be asked to create an account. 
->   ii. Be able to look for available houses for rent based on a desired location.
->   iii. Book rental.
->   iv. Be able to look at activities based on loaction. 
->   v. Leave a review of house/stay and homeowner. 
->   vi. View homeowner's reviews.
->   vii. Customer can message homeowner.
->   viii. Customers can create a wishlist. 
->   ix. View past and present bookings. 
->   x. Search by criteria. 
->   xi. Access customer service. 
+>   1. Customer (House renter):
+>  i. Customer will be asked to create an account. 
+>  ii. Be able to look for available houses for rent based on a desired location.
+>  iii. Book rental.
+>  iv. Be able to look at activities based on loaction. 
+>  v. Leave a review of house/stay and homeowner. 
+>  vi. View homeowner's reviews.
+>  vii. Customer can message homeowner.
+>  viii. Customers can create a wishlist. 
+>  ix. View past and present bookings. 
+>  x. Search by criteria. 
+>  xi. Access customer service. 
 
 > 2. Provider (Homeowner)
 >   i. Homeowner wil be asked to create an account. 
