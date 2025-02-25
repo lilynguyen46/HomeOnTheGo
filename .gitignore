@@ -1,2 +1,4 @@
 #MacOS system files
 .DS_Store
+#IntelliJ file
+.idea/
