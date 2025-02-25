@@ -1,0 +1,15 @@
+/* Reset default margin, padding, and box-sizing */
+:root {
+  /* Primary Theme Colors*/
+  --primary-color: #25ae60;
+
+  /* Secondary Theme Colors */
+  --secondary-color: #6451e0;
+
+  
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
