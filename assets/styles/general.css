@@ -2,6 +2,7 @@
 
 /* Reset default margin, padding, and box-sizing */
 :root {
+  
   /* Primary Theme Colors*/
   --primary-color: #25ae60;
   --primary-color-light: #E1F2E7;
