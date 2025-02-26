@@ -15,38 +15,33 @@ nav {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color); /* Navbar background */
 }
 .nav-logo {
   font-size: 1.75rem;
   font-weight: 700;
-  color: var(--white-color);
+  color: var(--white-color); /* Navbar logo text */
 }
 
 .nav-menu-btn {
   font-size: 1.75rem;
-  color: var(--white-color);
+  color: var(--white-color); /* Navbar menu icon color */
   cursor: pointer;
 }
 .nav-links {
   display: flex;
   padding: 30px;
   list-style: none;
-  background-color: var(--primary-color);
+  background-color: var(--primary-color); /* Navbar background */
   gap: 1.75rem;
   align-items: center;
   justify-content: center;
 }
 
-
-
-
-
 .list-home {
   font-size: 1.5rem;
   padding: 0.75rem;
 }
-
 
 .listings {
   display: flex; /* Center the grid container */
@@ -56,7 +51,6 @@ nav {
   padding-left: 100px;
 }
 
-<<<<<<< Updated upstream
 .card-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust for better fit */
@@ -77,12 +71,36 @@ nav {
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
   gap: 30px;
 }
-=======
-form {
-  display: block !important;
-  visibility: visible !important;
+
+/* Centered button container styles */
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height to vertically center the buttons */
+  gap: 20px; /* Space between buttons */
+  margin-top: 70px; /* To make sure it's not hidden behind navbar */
 }
 
-  
+button {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  background-color: var(--primary-color); /* Use navbar's primary color */
+  color: var(--white-color); /* Use white color for button text */
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
 
->>>>>>> Stashed changes
+button:hover {
+  background-color: var(--hover-color, #ff5c8d); /* Add a hover color */
+}
+
+.guest-button {
+  background-color: var(--primary-color); /* Greenish color for "Guest" */
+}
+
+.host-button {
+  background-color: var(--secondary-color, #f44336); /* Red for "Host" */
+}
