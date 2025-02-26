@@ -1,4 +1,4 @@
-@import url('/assets/styles/general.css');
+@import url("/assets/styles/general.css");
 
 nav {
   position: absolute; /* or fixed if you want it to stay on scroll */
@@ -7,6 +7,7 @@ nav {
   width: 100%;
   z-index: 1000; /* Ensure it's above other content */
 }
+
 .nav-header {
   padding: 1rem;
   display: flex;
@@ -15,7 +16,6 @@ nav {
   align-items: center;
   width: 100%;
   background-color: var(--primary-color);
-  
 }
 .nav-logo {
   font-size: 1.75rem;
@@ -29,7 +29,6 @@ nav {
   cursor: pointer;
 }
 .nav-links {
-
   display: flex;
   padding: 30px;
   list-style: none;
@@ -37,24 +36,43 @@ nav {
   gap: 1.75rem;
   align-items: center;
   justify-content: center;
-
 }
+
+
+
+
 
 .list-home {
-  font-size: 1.50rem;
-  padding: .75rem;
-  
+  font-size: 1.5rem;
+  padding: 0.75rem;
 }
 
-.card-grid-container{
-   display: grid;
-   grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
-   gap: 40px;
-   margin-top: 150px;
-   
 
-
+.listings {
+  display: flex; /* Center the grid container */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-left: 100px;
 }
 
-  
-
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust for better fit */
+  gap: 40px;
+  margin-top: 150px;
+  max-width: 1200px; /* Restrict width */
+  width: 100%; /* Ensure it doesn't shrink */
+}
+.grid-card {
+  padding: 40px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 9px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
+  gap: 30px;
+}
