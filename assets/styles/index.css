@@ -39,5 +39,13 @@
   
 }
 
+.card-grid-container{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(500px,1fr));
+   gap: 40px;
+   margin-top: 100px;
+
+}
+
   
 
