@@ -1,97 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>landing-page</title>
-  <link
-    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
-    rel="stylesheet"
-/>
-  <link rel="stylesheet" href="/assets/styles/index.css">
-  
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
 
-  <nav>
-    <div class="nav-header">
-      <div class="nav-logo">
-        <a href="#">Home On The <span>Go</span>.</a>
-      </div>
-      <div class="nav-menu-btn" id="menu-btn">
-      </div>
-      <ul class = "nav-links" id = "nav_links">
-        <li><a href="#">Houses</a></li>
-        <li><a href="#">Contact Us</a></li>
-        <li><a href="#">About us</a></li>
-        <br>
-        <input type="text" placeholder="Search..">
-      </ul>
-      <div class="nav-btns">
-        <button class="list-home"> List Home</button>
-      </div>
-      <div>
-        <button class="nav-btns">
-          <a href="/src/account-registration.html">
-          <img src="/assets/images/icons/profile-icon.png" alt="login Signup" width="40"> 
-        </a>
-        </button>
-      </div>
-    </div>  
-  </nav>
+    <script src="https://kit.fontawesome.com/6ec0f688d6.js"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
+    <header>
 
+      <div class="header-container">
+        <div class="header-container-left">
+          <h1 class="Logo">HomeOnTheGo</h1>
+          <i class="fa-solid fa-people-roof"></i>
+        </div>
 
+        <nav>
+          <div class="header-container-right">
+            <form class="search-bar">
+              <input type="text" placeholder="Search..." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
 
-
-
-<div class="listings">
-  
-    <div class="card-grid-container">
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/cabin.jpeg" alt="Cabin In The Woods" width="400">
+            <ul>
+              <li><a href="#">Houses</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">About Us</a></li>
+            </ul>
+            <button class=Sign-Up>
+              <i class="fa-solid fa-user"></i>
+            </button>
+            <button class="list-home">
+              <span>List Home</span>
+            </button>
+          </div>
+        </nav>
       </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Mansion.jpeg" alt="Pink Mansion" width="400">
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Farmhouse.jpeg" alt="Red Farmhouse" width="400">
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Modern House at Twilight (1).jpeg" alt="Twiligt House" width="400">
-  
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Organic Desert House.jpeg" alt="Desert House" width="400">
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Vintage House in Lush Garden.jpeg" alt="Vinatge House" width="400">
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Tranquil Rural Landscape with Flowering Fields.jpeg" alt="Tranquil House" width="400">
-      </div>
-      <div>
-        <img class = "grid-card"src="../assets/images/houses/Twilight Serenity at a Red Brick House.jpeg" alt="Serenity House" width="400">
-      </div>
-    </div>
-</div>
 
+    </header>
 
+    <main>
+      <div class="card-grid-container">
+        <div>
+          <img class="grid-card" src="../assets/images/houses/cabin.jpeg"
+            alt="Cabin In The Woods" width="400">
+        </div>
+        <div>
+          <img class="grid-card" src="../assets/images/houses/Mansion.jpeg"
+            alt="Pink Mansion" width="400">
+        </div>
+        <div>
+          <img class="grid-card" src="../assets/images/houses/Farmhouse.jpeg"
+            alt="Red Farmhouse" width="400">
+        </div>
+        <div>
+          <img class="grid-card"
+            src="../assets/images/houses/Modern House at Twilight (1).jpeg"
+            alt="Twiligt House" width="400">
+        </div>
+        <div>
+          <img class="grid-card"
+            src="../assets/images/houses/Organic Desert House.jpeg"
+            alt="Desert House" width="400">
+        </div>
+        <div>
+          <img class="grid-card"
+            src="../assets/images/houses/Vintage House in Lush Garden.jpeg"
+            alt="Vinatge House" width="400">
+        </div>
+        <div>
+          <img class="grid-card"
+            src="../assets/images/houses/Tranquil Rural Landscape with Flowering Fields.jpeg"
+            alt="Tranquil House" width="400">
+        </div>
+        <div>
+          <img class="grid-card"
+            src="../assets/images/houses/Twilight Serenity at a Red Brick House.jpeg"
+            alt="Serenity House" width="400">
+        </div>
+      </div>
+    </main>
 
-
-<footer>
-<div class="footer-container">
-  <div class="footer-left">
-    <div>HomeOnTheGo</div>
-  </div>
-  <div class="footer-right">
-    <a href="https://github.com/lilynguyen46/HomeOnTheGo.git">
-      <img src="/assets/images/icons/github.png" width="40">
-    </a>
-  </div>
-</div>
-
-  
-</footer>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-left">
+          <div>HomeOnTheGo</div>
+        </div>
+        <div class="footer-right">
+          <a href="https://github.com/lilynguyen46/HomeOnTheGo.git">
+            <i class="fa-brands fa-github"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
 
   </body>
