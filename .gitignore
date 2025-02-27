@@ -2,3 +2,5 @@
 .DS_Store
 #IntelliJ file
 .idea/
+#VSCode File
+.vscode
