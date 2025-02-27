@@ -51,6 +51,7 @@ nav {
   padding-left: 100px;
 }
 
+<<<<<<< HEAD
 .card-grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr)); /* Adjust for better fit */
@@ -71,6 +72,14 @@ nav {
   box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.15);
   gap: 30px;
 }
+=======
+
+#registration-form {
+  margin-top: 200px; /* Adjust based on your nav height */
+}
+
+  
+>>>>>>> 84a7427 (fixed the form)
 
 /* Centered button container styles */
 .button-container {
