@@ -16,29 +16,52 @@
   align-items: center;
   gap: var(--gap-large);
 }
-
-.header-container-right .search-bar {
+.search-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-small);
   
 }
-
-
-
+.search-bar input {
+  padding: var(--padding-small);
+  border: 1px solid var(--text-color);
+  border-radius: var(--border-radius-medium);
+ 
+  
+}
+.search-bar button {
+  padding: var(--padding-small);
+  background-color: var(--primary-color-light);
+  border: none;
+  border-radius: var(--border-radius-medium);
+  color: var(--primary-color);
+  font-weight: var(--font-weight-bold);
+  transition: var(--transition-fast);
+  
+}
 
 
 
 .header-container-right ul {
   list-style: none;
   display: flex;
+  align-items: center;
+  justify-content: center;
   gap: var(--gap-medium);
   padding: 0;
   margin: 0;
+  
 }
+
 
 .header-container-right ul a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: var(--font-weight-bold);
   transition: var(--transition-fast);
+  
 }
 
 .header-container-right ul a:hover {
@@ -76,4 +99,54 @@
 }
 .list-home span {
   color: var(--primary-color);
+}
+
+
+
+
+
+/*MAIN*/
+
+.main-container {
+  padding: var(--padding-large);
+}
+
+/* Grid Container Fix */
+.card-grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-adjust grid */
+  gap: var(--gap-large); /* Space between images */
+  
+
+  justify-content: center;
+  align-items: center;
+}
+
+/* Ensures images stay inside their grid items */
+.grid-card {
+  
+  align-self: center;
+  width: 100%; /* Makes sure images resize properly */
+  height: 350px;
+  object-fit: cover; /* Ensures images maintain aspect ratio */
+  border-radius: var(--border-radius-medium, 12px);
+}
+.grid-card:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: var(--transition-medium);
+}
+
+
+
+/*footer*/
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-large);
+  
+
 }
