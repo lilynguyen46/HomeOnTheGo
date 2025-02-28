@@ -50,31 +50,38 @@
 
 
 
+      <h1 class="settingsheader-container">Profile Settings</h1>
 
-
-
-    <h1> Profile Settings </h1>
-    
-    <fieldset 
-        <legend>Profile Pic</legend>
+      <div class="prof-container">
+      
+        <!-- Left Side: Profile Pic -->
+        <div class="left-side-container">
+          <fieldset class="profilepic-container">
+            <legend>Profile Pic</legend>
             Guest/Host User Pic.
-    </fieldset>
-    
-    <fieldset 
-        <legend>Profile Info</legend>
-        Guest/Host User Profile Settings. <br>
-        <form>
-            Change First Name: <br>
-            <input type="text" name="firstname"><br>
-            Change Last Name: <br>
-            <input type="text" name="lastname"><br>
-            Change Email: <br>
-            <input type="text" name="Email"><br>
-            <br>
-        </form>
-        <a href="profpage.html">
-            <button>Go back to profile page</button>
-        </a>
-    </fieldset>
-</body>
-</html>
+          </fieldset>
+        </div>
+      
+        <!-- Right Side: Profile Info and Form -->
+        <div class="right-side-container">
+          <fieldset class="profileinfo-container">
+            <legend>Profile Info</legend>
+            <p>Guest/Host User Profile Settings.</p>
+            <form>
+              Change First Name: <br>
+              <input type="text" name="firstname"><br><br>
+              Change Last Name: <br>
+              <input type="text" name="lastname"><br><br>
+              Change Email: <br>
+              <input type="email" name="email"><br><br>
+            </form>
+            <a href="profpage.html">
+              <button class="prof-buttons">Go back to profile page</button>
+            </a>
+          </fieldset>
+        </div>
+      
+      </div>
+      
+      </body>
+      </html>

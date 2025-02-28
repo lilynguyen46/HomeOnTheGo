@@ -165,7 +165,7 @@
   font-weight: var(--font-weight-bold);
   font-size: var(--font-size-large);
   width: 400px;
-  height: 400px;;
+  height: 400px;
 }
 
 .profileinfo-container {
@@ -179,18 +179,18 @@
 .prof-container {
   display: grid;
   grid-template-columns: 0.8fr 1.6fr;
-  gap: 50px;
+  gap: 100px;
   padding: 20px;
 }
 
 .left-side-container, .right-side-container {
-  jusitfy-content: center;
+  justify-content: center;
   align-items: center;
 
 }
 
 .prof-buttons {
-  margin-left: 50px;
+  margin-left: 20px;
   margin-right: 20px;
   align-items: center;
   justify-content: center;
@@ -200,3 +200,41 @@
   padding: var(--padding-small);
   border-radius: var(--border-radius-medium);
 }
+
+.messagesheader-container {
+  padding: var(--padding-medium)
+}
+ .message1-container {
+  padding: 20px;
+  border-radius: var(--border-radius-large);
+  font-weight: var(--font-weight-bold);
+ }
+
+ .message2-container {
+  padding: 20px;
+  border-radius: var(--border-radius-large);
+  font-weight: var(--font-weight-bold);
+ }
+
+ .settingsheader-container {
+  padding: var(--padding-medium)
+ }
+
+ .settingspropic-container {
+  border-radius: var(--border-radius-large);
+  font: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  width: 400px;
+  height: 400px;
+ }
+
+ .settingsproinfo-container {
+    border-radius: var(--border-radius-large);
+    font: var(--font-family);
+    font-weight: var(--font-weight-bold);
+    font-size: var(--font-size-large);
+    height: 500px;
+  }
+  
+ 
