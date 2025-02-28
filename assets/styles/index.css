@@ -154,4 +154,49 @@
 
 
 /*Work done by Eduardo and Lily*/
+.profileheader-container{
+  padding: var(--padding-medium)
+}
 
+
+.profilepic-container {
+  border-radius: var(--border-radius-large);
+  font: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  width: 400px;
+  height: 400px;;
+}
+
+.profileinfo-container {
+  border-radius: var(--border-radius-large);
+  font: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  height: 500px;
+}
+
+.prof-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.6fr;
+  gap: 50px;
+  padding: 20px;
+}
+
+.left-side-container, .right-side-container {
+  jusitfy-content: center;
+  align-items: center;
+
+}
+
+.prof-buttons {
+  margin-left: 50px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color-light);
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: var(--padding-small);
+  border-radius: var(--border-radius-medium);
+}
