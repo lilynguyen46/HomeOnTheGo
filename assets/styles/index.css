@@ -1,12 +1,20 @@
 @import url(/assets/styles/general.css);
 
 .header-container {
+  position: relative;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: var(--padding-large);
   gap: var(--gap-large);
+  z-index: 10000;
+}
+.header-container a {
+  text-decoration: none;
+  color: var(--text-color);
+  font-weight: var(--font-weight-bold);
+  transition: var(--transition-fast);
 }
 
 .header-container .header-container-left,
@@ -23,14 +31,12 @@
   justify-content: center;
   align-items: center;
   gap: var(--gap-small);
-  
 }
 .search-bar input {
+  width:300px;
   padding: var(--padding-small);
   border: 1px solid var(--text-color);
   border-radius: var(--border-radius-medium);
- 
-  
 }
 .search-bar button {
   padding: var(--padding-small);
@@ -40,10 +46,8 @@
   color: var(--primary-color);
   font-weight: var(--font-weight-bold);
   transition: var(--transition-fast);
-  
+  cursor: pointer;
 }
-
-
 
 .header-container-right ul {
   list-style: none;
@@ -53,16 +57,13 @@
   gap: var(--gap-medium);
   padding: 0;
   margin: 0;
-  
 }
-
 
 .header-container-right ul a {
   text-decoration: none;
   color: var(--text-color);
   font-weight: var(--font-weight-bold);
   transition: var(--transition-fast);
-  
 }
 
 .header-container-right ul a:hover {
@@ -81,7 +82,6 @@
   border: none;
   border-radius: var(--border-radius-medium);
   transition: var(--transition-fast);
-
 }
 .auth-buttons button:hover {
   background-color: var(--secondary-color-light);
@@ -93,7 +93,6 @@
   padding: var(--padding-medium);
   border: none;
   border-radius: var(--border-radius-medium);
-  
 }
 .list-home:hover {
   cursor: pointer;
@@ -101,10 +100,6 @@
 .list-home span {
   color: var(--primary-color);
 }
-
-
-
-
 
 /*MAIN*/
 
@@ -115,17 +110,17 @@
 /* Grid Container Fix */
 .card-grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Auto-adjust grid */
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(300px, 1fr)
+  ); /* Auto-adjust grid */
   gap: var(--gap-large); /* Space between images */
-  
-
   justify-content: center;
   align-items: center;
 }
 
 /* Ensures images stay inside their grid items */
 .grid-card {
-  
   align-self: center;
   width: 100%; /* Makes sure images resize properly */
   height: 350px;
@@ -138,8 +133,6 @@
   transition: var(--transition-medium);
 }
 
-
-
 /*footer*/
 
 .footer-container {
@@ -148,140 +141,4 @@
   justify-content: center;
   align-items: center;
   padding: var(--padding-large);
-  
-
 }
-
-
-
-/*Work done by Eduardo and Lily*/
-.profileheader-container{
-  padding: var(--padding-medium)
-}
-
-
-.profilepic-container {
-  border-radius: var(--border-radius-large);
-  font: var(--font-family);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
-  width: 400px;
-  height: 400px;
-}
-
-.profileinfo-container {
-  border-radius: var(--border-radius-large);
-  font: var(--font-family);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
-  height: 500px;
-}
-
-.prof-container {
-  display: grid;
-  grid-template-columns: 0.8fr 1.6fr;
-  gap: 100px;
-  padding: 20px;
-}
-
-.left-side-container, .right-side-container {
-  justify-content: center;
-  align-items: center;
-
-}
-
-.prof-buttons {
-  margin-left: 20px;
-  margin-right: 20px;
-  align-items: center;
-  justify-content: center;
-  background-color: var(--secondary-color-light);
-  color: var(--secondary-color);
-  cursor: pointer;
-  padding: var(--padding-small);
-  border-radius: var(--border-radius-medium);
-}
-<<<<<<< HEAD
-
-.messagesheader-container {
-  padding: var(--padding-medium)
-}
- .message1-container {
-  padding: 20px;
-  border-radius: var(--border-radius-large);
-  font-weight: var(--font-weight-bold);
- }
-
- .message2-container {
-  padding: 20px;
-  border-radius: var(--border-radius-large);
-  font-weight: var(--font-weight-bold);
- }
-
- .settingsheader-container {
-  padding: var(--padding-medium)
- }
-
- .settingspropic-container {
-  border-radius: var(--border-radius-large);
-  font: var(--font-family);
-  font-weight: var(--font-weight-bold);
-  font-size: var(--font-size-large);
-  width: 400px;
-  height: 400px;
- }
-
- .settingsproinfo-container {
-    border-radius: var(--border-radius-large);
-    font: var(--font-family);
-    font-weight: var(--font-weight-bold);
-    font-size: var(--font-size-large);
-    height: 500px;
-  }
-  
- 
-=======
-.form-body-container{
-    display: flex;
-    justify-content: center; 
-    align-items: center;
-    height: 100vh; 
-    margin: 0; 
-    background-color: var(--background-color); 
-}
-
-.sign-up-container{
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: var(--primary-color-light);
-  text-align: center;
-  width: 300px;
-  height: 100vh;
-  padding: 200px;
-  border-radius: var(--border-radius-large) ;
-  margin: 0;
-}
-
-
-.login-container {
-  border: 1px solid #ddd;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  background-color: var(--primary-color-light);
-  text-align: center;
-  width: 600px; 
-  min-height: 400px; 
-  padding: 40px; 
-  border-radius: var(--border-radius-large);
-  display: flex;
-  flex-direction: column;
-  gap: 15px;
-  box-sizing: border-box; 
-  box-sizing: border-box; 
-  max-height: 90vh; 
-  overflow: hidden;
-  flex-wrap: wrap; 
-}
->>>>>>> b2cf76ce9f9db51c34cfbf57e463915e309d938d
