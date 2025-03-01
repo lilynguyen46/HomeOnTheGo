@@ -11,6 +11,7 @@
 <body>
 
 
+  <!---Header made by Jared DONOT TOUCH-->
     <header>
         <div class="header-container">
           <div class="header-container-left">
@@ -24,25 +25,33 @@
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
               <ul>
-                <li><a href="#">Houses</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="/src/houses.html">Houses</a></li>
+                <li><a href="https://github.com/lilynguyen46/HomeOnTheGo.git">Contact Us</a></li>
+                <li><a href="https://github.com/lilynguyen46/HomeOnTheGo.git">About Us</a></li>
               </ul>
   
               <button class="list-home">
                 <span>List Home</span>
               </button>
               <div class="auth-buttons">
-                <button class="login">Log In</button>
-                <button class="sign-up">Sign Up</button>
-                <button class=profile>
-                  <i class="fa-solid fa-user"></i>
-                </button>
+                <a href="/src/login.html">
+                  <button class="login">Log In</button>
+                </a>
+                <a href="/src/sign-up.html">
+                  <button class="sign-up">Sign Up</button>
+                </a>
+    
+                <a href="/src/profpage.html">
+                  <button class=profile> <i class="fa-solid fa-user"></i>
+                  </button>
+                </a>
+                
               </div>
             </div>
           </nav>
         </div>
       </header>
+<!--DO NOT TOUCH-->
 
 
 
@@ -61,25 +70,51 @@
 
 
 
+    <h1 class="profileheader-container"> Your Profile Page</h1>
 
-    <h1> Your Profile Page</h1>
 
-    <fieldset 
+<div class="prof-container">
+
+
+
+<div class="left-side-container">
+    <fieldset class="profilepic-container">
         <legend>Profile Pic</legend>
-        Guest/Host User Pic.
+        <img src="../assets/images/icons/profpic.jpeg" />
     </fieldset>
+  </div>
 
-    <fieldset 
+
+<div class="right-side-container">
+    <fieldset class="profileinfo-container">
         <legend>Profile Info</legend>
-        Guest/Host User Info. <br>
-        Name: Lily <br>
-        Last Name: Nguyen <br>
-        Email: lhnguyen2@uncg.edu <br>
-        Lily's Ratings: 5/5
+        <p>Guest/Host User Info.</p> <br>
+        <p> Name: Billy </p><br>
+        <p> Last Name: Burns </p><br>
+        <p>Email: billyburns@uncg.edu </p><br>
+        <p> Billy's Ratings: 5/5 </p>
+        <br>
+        <a href="messages.html">
+          <button class="prof-buttons">Messages</button>
+        </a> 
+        <a href="trips.html">
+          <button class=" prof-buttons">Upcoming Trips</button>
+        </a> 
         <a href="settings.html">
-            <button>Settings</button>
-        </a>
+          <button class="prof-buttons">Settings</button>
+        </a> 
     </fieldset>
+</div>
+
+
+
+</div>
+
+
+
+
+
+
 
     
 </body>

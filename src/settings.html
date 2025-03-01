@@ -22,20 +22,27 @@
                 <button type="submit"><i class="fa fa-search"></i></button>
               </form>
               <ul>
-                <li><a href="#">Houses</a></li>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="/src/houses.html">Houses</a></li>
+                <li><a href="https://github.com/lilynguyen46/HomeOnTheGo.git">Contact Us</a></li>
+                 <li><a href="https://github.com/lilynguyen46/HomeOnTheGo.git">About Us</a></li>
               </ul>
   
               <button class="list-home">
                 <span>List Home</span>
               </button>
               <div class="auth-buttons">
-                <button class="login">Log In</button>
-                <button class="sign-up">Sign Up</button>
-                <button class=profile>
-                  <i class="fa-solid fa-user"></i>
-                </button>
+                <a href="/src/login.html">
+                  <button class="login">Log In</button>
+                </a>
+                <a href="/src/sign-up.html">
+                  <button class="sign-up">Sign Up</button>
+                </a>
+    
+                <a href="/src/profpage.html">
+                  <button class=profile> <i class="fa-solid fa-user"></i>
+                  </button>
+                </a>
+                
               </div>
             </div>
           </nav>
@@ -50,31 +57,38 @@
 
 
 
+      <h1 class="settingsheader-container">Profile Settings</h1>
 
-
-
-    <h1> Profile Settings </h1>
-    
-    <fieldset 
-        <legend>Profile Pic</legend>
+      <div class="prof-container">
+      
+        <!-- Left Side: Profile Pic -->
+        <div class="left-side-container">
+          <fieldset class="profilepic-container">
+            <legend>Profile Pic</legend>
             Guest/Host User Pic.
-    </fieldset>
-    
-    <fieldset 
-        <legend>Profile Info</legend>
-        Guest/Host User Profile Settings. <br>
-        <form>
-            Change First Name: <br>
-            <input type="text" name="firstname"><br>
-            Change Last Name: <br>
-            <input type="text" name="lastname"><br>
-            Change Email: <br>
-            <input type="text" name="Email"><br>
-            <br>
-        </form>
-        <a href="profpage.html">
-            <button>Go back to profile page</button>
-        </a>
-    </fieldset>
-</body>
-</html>
+          </fieldset>
+        </div>
+      
+        <!-- Right Side: Profile Info and Form -->
+        <div class="right-side-container">
+          <fieldset class="profileinfo-container">
+            <legend>Profile Info</legend>
+            <p>Guest/Host User Profile Settings.</p>
+            <form>
+              Change First Name: <br>
+              <input type="text" name="firstname"><br><br>
+              Change Last Name: <br>
+              <input type="text" name="lastname"><br><br>
+              Change Email: <br>
+              <input type="email" name="email"><br><br>
+            </form>
+            <a href="profpage.html">
+              <button class="prof-buttons">Go back to profile page</button>
+            </a>
+          </fieldset>
+        </div>
+      
+      </div>
+      
+      </body>
+      </html>
