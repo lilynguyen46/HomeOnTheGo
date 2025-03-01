@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--padding-large);
+  gap: var(--gap-large);
 }
 
 .header-container .header-container-left,
