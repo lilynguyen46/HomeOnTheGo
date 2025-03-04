@@ -1,0 +1,37 @@
+@import url(/assets/styles/index.css);
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: var(--padding-large);
+  gap: var(--gap-large);
+}
+
+
+.main-container-left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: var(--gap-large);
+}
+.main-container-left button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--secondary-color-light);
+  font-size: 20px;
+  cursor: pointer;
+}
+.main-container-left button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+.steps {
+  padding: var(--padding-large);
+}
+

@@ -16,6 +16,31 @@
   font-weight: var(--font-weight-bold);
   transition: var(--transition-fast);
 }
+.header-container a:hover {
+  transform: scale(1.1);
+}
+.header-container a:hover::before,
+.header-container a:hover::after {
+   content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200%;
+    height: 200%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    animation: burst 0.8s ease-out forwards;
+}
+
+
+
+.header-container h1 {
+    letter-spacing: 0.1em;
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease-out;
+
+}
 
 .header-container .header-container-left,
 .header-container .header-container-right {
