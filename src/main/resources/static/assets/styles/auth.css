@@ -1,0 +1,113 @@
+@import url(index.css);
+/*Work done by Eduardo and Lily*/
+.profileheader-container {
+  padding: var(--padding-medium);
+}
+
+.profilepic-container {
+  border-radius: var(--border-radius-large);
+  font: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  width: 400px;
+  height: 400px;
+}
+
+.profileinfo-container {
+  border-radius: var(--border-radius-large);
+  font: var(--font-family);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-large);
+  height: 500px;
+}
+
+.prof-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1.6fr;
+  gap: 100px;
+  padding: 20px;
+}
+
+.left-side-container,
+.right-side-container {
+  justify-content: center;
+  align-items: center;
+}
+
+.prof-buttons {
+  margin-left: 20px;
+  margin-right: 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-color-light);
+  color: var(--secondary-color);
+  cursor: pointer;
+  padding: var(--padding-small);
+  border-radius: var(--border-radius-medium);
+}
+.form-body-container {
+  display: flex;
+  padding: var(--padding-large);
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: var(--background-color);
+}
+
+.sign-up-container,
+.login-container {
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 600px;
+  min-height: 400px;
+  padding: 40px;
+  border-radius: var(--border-radius-large);
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+}
+.sign-up-container input,
+.login-container input {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  width: 100%;
+}
+.sign-up-container button,
+.login-container button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: none;
+  background-color: var(--secondary-color-light);
+  font-size: 20px;
+  cursor: pointer;
+}
+.sign-up-container button:hover,
+.login-container button:hover {
+  background-color: var(--secondary-color);
+  color: white;
+}
+
+.header-container,
+.login-container {
+  position: relative;
+  z-index: 10000; /* Ensures they are above the background */
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* Light background to make content readable */
+}
+.main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main-container img {
+  width: 100%;
+  height: 500px;
+}
