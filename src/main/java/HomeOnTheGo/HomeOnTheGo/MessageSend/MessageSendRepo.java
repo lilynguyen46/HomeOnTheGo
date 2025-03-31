@@ -1,4 +1,6 @@
 package HomeOnTheGo.HomeOnTheGo.MessageSend;
-
-public interface MessageSendRepo {
+import java.util.List;
+import org.springframework.data.jpa.repository.JpaRepository;
+public interface MessageSendRepo extends JpaRepository<MessageSend, Integer> {
+    List<MessageSend> findBySender(String sender);
 }
