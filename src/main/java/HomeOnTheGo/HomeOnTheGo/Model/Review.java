@@ -23,7 +23,7 @@ public class Review {
     @GeneratedValue
     private Long id;
 
-    private String descrition;
+    private String description;
     private int rating;
     private LocalDate createdAt;
 
