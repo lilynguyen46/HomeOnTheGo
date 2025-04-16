@@ -1,4 +1,4 @@
-package com.jcode.hometogo.Controller;
+package HomeOnTheGo.HomeOnTheGo.Controller;
 
 import HomeOnTheGo.HomeOnTheGo.Model.Booking;
 import HomeOnTheGo.HomeOnTheGo.Model.Tenant;
