@@ -18,6 +18,7 @@ public class PropertyService {
         Property property = propertyRepository.findById(propertyId)
                 .orElseThrow(() -> new RuntimeException("Property not found"));
         reviewData.setCreatedAt(LocalDate.now());
+        reviewData.setProperty(property);
         property.setReview(Collections.singletonList(reviewData));
         return reviewRespository.save(reviewData);
         
