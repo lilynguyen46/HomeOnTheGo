@@ -1,7 +1,7 @@
-package com.jcode.hometogo.Service;
+package HomeOnTheGo.HomeOnTheGo.Service;
 
-import com.jcode.hometogo.Model.User;
-import com.jcode.hometogo.Repository.UserRepository;
+import HomeOnTheGo.HomeOnTheGo.Model.User;
+import HomeOnTheGo.HomeOnTheGo.Repository.UserRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

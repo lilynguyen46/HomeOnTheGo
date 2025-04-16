@@ -1,6 +1,6 @@
-package com.jcode.hometogo.Repository;
+package HomeOnTheGo.HomeOnTheGo.Repository;
 
-import com.jcode.hometogo.Model.Booking;
+import HomeOnTheGo.HomeOnTheGo.Model.Booking;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

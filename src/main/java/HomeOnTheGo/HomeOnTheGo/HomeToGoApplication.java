@@ -1,9 +1,9 @@
-package com.jcode.hometogo;
+package HomeOnTheGo.HomeOnTheGo;
 
-import com.jcode.hometogo.Model.Host;
-import com.jcode.hometogo.Model.Property;
-import com.jcode.hometogo.Model.User;
-import com.jcode.hometogo.Repository.*;
+import HomeOnTheGo.HomeOnTheGo.Model.Host;
+import HomeOnTheGo.HomeOnTheGo.Model.Property;
+import HomeOnTheGo.HomeOnTheGo.Model.User;
+import HomeOnTheGo.HomeOnTheGo.Repository.*;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

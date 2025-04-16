@@ -1,11 +1,11 @@
 package com.jcode.hometogo.Controller;
 
-import com.jcode.hometogo.Model.Host;
-import com.jcode.hometogo.Model.Tenant;
-import com.jcode.hometogo.Model.User;
-import com.jcode.hometogo.Service.HostService;
-import com.jcode.hometogo.Service.TenantService;
-import com.jcode.hometogo.Service.UserService;
+import HomeOnTheGo.HomeOnTheGo.Model.Host;
+import HomeOnTheGo.HomeOnTheGo.Model.Tenant;
+import HomeOnTheGo.HomeOnTheGo.Model.User;
+import HomeOnTheGo.HomeOnTheGo.Service.HostService;
+import HomeOnTheGo.HomeOnTheGo.Service.TenantService;
+import HomeOnTheGo.HomeOnTheGo.Service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,6 +1,6 @@
-package com.jcode.hometogo.Repository;
+package HomeOnTheGo.HomeOnTheGo.Repository;
 
-import com.jcode.hometogo.Model.User;
+import HomeOnTheGo.HomeOnTheGo.Model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface UserRepository extends JpaRepository<User, Long> {

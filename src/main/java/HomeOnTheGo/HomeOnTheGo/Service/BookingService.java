@@ -1,12 +1,12 @@
-package com.jcode.hometogo.Service;
+package HomeOnTheGo.HomeOnTheGo.Service;
 
-import com.jcode.hometogo.Model.Booking;
-import com.jcode.hometogo.Model.Property;
-import com.jcode.hometogo.Model.Tenant; // Added import for Tenant
-import com.jcode.hometogo.Repository.BookingRepository;
-import com.jcode.hometogo.Repository.HostRepository;
-import com.jcode.hometogo.Repository.PropertyRepository; // Added import for PropertyRepository
-import com.jcode.hometogo.Repository.TenantRepository; // Added import for TenantRepository
+import HomeOnTheGo.HomeOnTheGo.Model.Booking;
+import HomeOnTheGo.HomeOnTheGo.Model.Property;
+import HomeOnTheGo.HomeOnTheGo.Model.Tenant; // Added import for Tenant
+import HomeOnTheGo.HomeOnTheGo.Repository.BookingRepository;
+import HomeOnTheGo.HomeOnTheGo.Repository.HostRepository;
+import HomeOnTheGo.HomeOnTheGo.Repository.PropertyRepository; // Added import for PropertyRepository
+import HomeOnTheGo.HomeOnTheGo.Repository.TenantRepository; // Added import for TenantRepository
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

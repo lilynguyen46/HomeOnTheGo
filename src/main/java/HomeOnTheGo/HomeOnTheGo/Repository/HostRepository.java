@@ -1,6 +1,6 @@
-package com.jcode.hometogo.Repository;
+package HomeOnTheGo.HomeOnTheGo.Repository;
 
-import com.jcode.hometogo.Model.Host;
+import HomeOnTheGo.HomeOnTheGo.Model.Host;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface HostRepository extends JpaRepository<Host, Long> {

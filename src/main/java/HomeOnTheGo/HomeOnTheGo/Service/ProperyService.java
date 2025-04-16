@@ -1,6 +1,6 @@
-package com.jcode.hometogo.Service;
+package HomeOnTheGo.HomeOnTheGo.Service;
 
-import com.jcode.hometogo.Model.Property;
+import HomeOnTheGo.HomeOnTheGo.Model.Property;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 

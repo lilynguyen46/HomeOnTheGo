@@ -1,4 +1,4 @@
-package com.jcode.hometogo.Model;
+package HomeOnTheGo.HomeOnTheGo.Model;
 
 import com.fasterxml.jackson.annotation.JsonManagedReference;
 import jakarta.persistence.*;
