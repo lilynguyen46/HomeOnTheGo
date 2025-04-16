@@ -33,5 +33,9 @@ public class Property {
     private List<Booking> bookings;
 
 
+    @OneToMany(mappedBy = "property", cascade = CascadeType.ALL)
+    @JsonManagedReference("property-review")
+    private List<Review> review;
+
 
 }

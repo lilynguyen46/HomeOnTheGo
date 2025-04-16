@@ -32,6 +32,10 @@ public class Host {
     @JsonManagedReference("host-property")
     private List<Property> properties;
 
+    @OneToMany(mappedBy = "host", cascade =  CascadeType.ALL)
+    @JsonManagedReference("host-review")
+    private List<Review> reviews;
+
 
 
 }
