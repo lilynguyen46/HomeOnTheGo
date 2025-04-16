@@ -31,5 +31,6 @@ public class TenantController {
     public Booking reserveASlot (@PathVariable Long tenantId, @PathVariable Long bookingId) {
         return tenantService.reserveSlot(bookingId, tenantId);
     }
+    
 
 }

@@ -35,5 +35,5 @@ public class Tenant {
 
     @OneToMany(mappedBy = "tenant", cascade = CascadeType.ALL)
     @JsonManagedReference("tenant-review")
-    private List<Review> reviews;
+    private List<Review> review;
 }

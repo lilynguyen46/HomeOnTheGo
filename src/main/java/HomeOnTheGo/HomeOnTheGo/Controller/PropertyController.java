@@ -17,8 +17,9 @@ import HomeOnTheGo.HomeOnTheGo.Model.Review; // Import the Review class
 public class PropertyController {
     private final PropertyService propertyService;
 
-    @PostMapping("/{propertyId}/reviews")
-    public void addReviewToProperty(@PathVariable Long propertyId, @RequestBody Review review) {
-        propertyService.createReviewForProperty(propertyId, review);
+    @PostMapping("/{propertyId}/reviews/tenant/{tenantId}")
+    public void addReviewToProperty(@PathVariable Long propertyId, @RequestBody Review review, @PathVariable Long tenantId) {
+        propertyService.createReviewForProperty(propertyId, review, tenantId);
     }
+
 }
